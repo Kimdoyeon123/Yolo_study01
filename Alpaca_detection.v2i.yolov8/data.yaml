@@ -1,0 +1,13 @@
+train: C:/Users/user/Desktop/Yolov8_study/Alpaca_detection.v2i.yolov8/train/images
+val: C:/Users/user/Desktop/Yolov8_study/Alpaca_detection.v2i.yolov8/valid/images
+test: C:/Users/user/Desktop/Yolov8_study/Alpaca_detection.v2i.yolov8/test/images
+
+nc: 1
+names: ['alpaca']
+
+roboflow:
+  workspace: yolo-8hcb3
+  project: alpaca_detection-a9fvm
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolo-8hcb3/alpaca_detection-a9fvm/dataset/2
